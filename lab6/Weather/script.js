@@ -1,5 +1,5 @@
  var myDiv = document.querySelector('div');
- var requestURL = 'http://api.openweathermap.org/data/2.5/weather?q=Energodar';
+ var requestURL = 'https://api.openweathermap.org/data/2.5/weather?q=Energodar';
 
  requestURL = requestURL+'&appid=3392d12d6de425c0dce79fd95e7364ac';
  var request = new XMLHttpRequest();
